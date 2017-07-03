@@ -13,4 +13,4 @@ request.get('https://sytantris.github.io/http-examples/future.jpg')
           console.log('Download complete.');
         })
         .pipe(fs.createWriteStream('./future.jpg'));
-          // console.log('Download complete.'); <- executes after line 4
+          // console.log('Download complete.'); <- WRONG, executes after line 4
